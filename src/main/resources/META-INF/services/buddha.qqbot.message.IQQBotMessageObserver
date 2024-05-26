@@ -1,0 +1,3 @@
+buddha.qqbot.message.observers.DefaultIdentifyObserver
+buddha.qqbot.message.observers.DefaultDispatchObserver
+buddha.qqbot.message.observers.DefaultHeartbeatAckObserver
