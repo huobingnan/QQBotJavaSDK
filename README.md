@@ -1,0 +1,2 @@
+# QQBotJavaSDK
+根据QQBot官方问题开发的Java版本的SDK，可以使用SDK提供的API快速创建一个QQBot应用
