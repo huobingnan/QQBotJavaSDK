@@ -1,7 +1,6 @@
 package buddha.qqbot;
 
 import buddha.qqbot.message.QQBotMessageDispatcher;
-import buddha.qqbot.openapi.AuthorizationInterceptor;
 import buddha.qqbot.openapi.CommonRequest;
 import buddha.qqbot.openapi.IOkHttpRequestType;
 import buddha.qqbot.openapi.pojo.AccessToken;
@@ -44,7 +43,6 @@ public class QQBot {
 
     private void initOkHttpClient() {
         client = new OkHttpClient.Builder()
-                .addInterceptor(new AuthorizationInterceptor(this))
                 .build();
     }
 

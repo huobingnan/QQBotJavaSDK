@@ -30,6 +30,8 @@ public enum CommonRequest implements IOkHttpRequestType {
         final String url = isDev == Boolean.TRUE ? "" : "https://sandbox.api.sgroup.qq.com/gateway";
         return new Request.Builder()
                 .url(url)
+                .addHeader("Authorization", "QQBot " + config[0])
+                .addHeader("X-Union-Appid", config[1].toString())
                 .get()
                 .build();
     }),
