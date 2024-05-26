@@ -1,5 +1,5 @@
 # QQBotJavaSDK
-根据QQBot官方问题开发的Java版本的SDK，可以使用SDK提供的API快速创建一个QQBot应用
+根据[QQBot官方文档](https://bot.q.qq.com/wiki)开发的Java版本的SDK，可以使用SDK提供的API快速创建一个QQBot应用
 ## 技术选型
 1. Java版本： >= 1.8
 2. 构建工具： Gradle
